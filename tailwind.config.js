@@ -2,7 +2,9 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+    colors: {cYellow: 'rgba(243, 172, 22, .9)'},
+    },
   },
   plugins: [],
 }

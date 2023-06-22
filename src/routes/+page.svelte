@@ -1,9 +1,12 @@
 <script>
-  import Video from "./Video.svelte";
+  import Contact from "./Contact.svelte";
+import Video from "./Video.svelte";
 
 </script>
 
-
 <Video/>
+<div class='mx-auto  max-w-7xl md:px-16 px-8'>
+<Contact/>
+</div>
 
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+

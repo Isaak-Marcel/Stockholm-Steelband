@@ -3,8 +3,12 @@
   import Footer from "./Footer.svelte";
   import NavBar from "./NavBar.svelte";
 </script>
-<div class=" mx-20">
+
   <NavBar/>
+ <div >
   <slot />
+
+  </div>
+<div class=" mx-auto  max-w-7xl md:px-16 px-8 ">
   <Footer/>
 </div>
