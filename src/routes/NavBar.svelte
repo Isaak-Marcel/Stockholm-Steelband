@@ -9,15 +9,15 @@
   
 </script>
 
-<nav class="mx-auto md:px-16 px-8 max-w-7xl">
+<nav class="mx-auto md:px-8 px-0 max-w-7xl">
   <div class="w-full flex justify-between items-center">
-    <div>
+    <div class="">
        
-      <a href="/" >
+      <a href="/" class="" >
         <img src='/images/Logo.png' alt="home"/>
       </a>
     </div>
-    <ul class="hidden row-nav md:flex justify-evenly ">
+    <ul class="hidden row-nav md:flex justify-evenly lg:w-96 md:w-80">
       <a href="d">
         <li>About us</li>
       </a>
@@ -28,8 +28,8 @@
         <li>About us</li>
       </a>
     </ul>
-    <CFA />
-      <button class="svelte-ignore a11y-click-events-have-key-events lg:hidden md:hidden" on:click={toggleNav} >
+    <div class="hidden md:flex"><CFA /></div>
+      <button class=" mr-4 svelte-ignore a11y-click-events-have-key-events lg:hidden md:hidden" on:click={toggleNav} >
         <Burger width={24} height={24} />
       </button>
   </div>
@@ -38,11 +38,10 @@
 
 <nav class="col-nav">
   {#if showNav}
-  <div class="md:hidden flex flex-col absolute bg-black ">
-    <a href="d" class="pl-8 ">About us</a>
-    <a href="d" class="pl-8">About us</a>
-    <a href="d" class="pl-8">About us</a>
-
+  <div class="md:hidden flex flex-col colNav w-full z-20 absolute bg-black ">
+    <a href="d" class="mx:pl-8 ">About us</a>
+    <a href="d" class="mx:pl-8">About us</a>
+    <a href="d" class="mx:pl-8">About us</a>
   </div>
 {/if}
 </nav>
@@ -51,6 +50,13 @@
   .row-nav a {
     display: flex;
     align-items: center;
-    margin: 0 30px 0 30px;
+    /* @apply mx-12 ; */
+  }
+  .colNav{
+
+  }
+  .colNav a{
+      padding-left: 12px;
+      padding: 10px ;
   }
 </style>

@@ -1,13 +1,30 @@
 <script>
+    let isMuted = true;
+    import Volume from "../icons/volume.svg.svelte";
+    import VolumeX from "../icons/volume-x.svg.svelte";
+
+    function toggleMute() {
+        isMuted = !isMuted;
+    }
 </script>
 
-<section class="sectionReal" >
-    <video muted autoplay playsinline disablepictureinpicture loop class="w-full object-cover absolute -z-10 min  ">
+<section class="sectionReal">
+    <video bind:muted={isMuted} autoplay playsinline disablepictureinpicture loop class="w-full object-cover absolute -z-10 min">
         <source src="/videos/IMG_6793.mov" />
-       
     </video>
-    
+
+    <div class="cont  absolute ">
+        <button class="absolute right-0 pt-8" on:click={toggleMute}>
+            {#if isMuted}
+                <VolumeX/>
+            {:else}
+                <Volume/>
+            {/if}
+        </button>
+    </div>
 </section>
+
+
 
 <div class="MainWrapper relative z-2">
     <div class="mx-auto text-center w-10/12 -mt-32 z-10 ">
