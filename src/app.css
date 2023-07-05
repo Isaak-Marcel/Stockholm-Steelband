@@ -9,7 +9,7 @@ body {
     font-family: system-ui, Roboto, Arial;
 }
 .MainWrapper{
-    @apply mx-auto  max-w-7xl md:px-16 px-8 relative z-10 
+    @apply mx-auto  max-w-7xl md:px-16 px-6 relative z-10 
 }
 
 .cont{
@@ -20,10 +20,7 @@ body {
     @apply bg-cYellow font-bold w-20
 }
 
-.steelP{
-    font-weight: 500;
-}
-h2{
+.h2{
     /* font-family: system-ui, Roboto, Arial; */
     /* font-family: system-ui; 
     font-family: -apple-system; 
@@ -41,5 +38,62 @@ h2{
     font-family: sans-serif; */
     font-weight: bold; 
     text-transform: capitalize;
-    @apply text-4xl
+    font-size: clamp(22px,6vw,55px);
 }
+
+.h2Small{
+   
+    /* font-family: system-ui, Roboto, Arial; */
+    /* font-family: system-ui; 
+    font-family: -apple-system; 
+    font-family: BlinkMacSystemFont; 
+    font-family:'Segoe UI';
+    font-family: Roboto; 
+    font-family: Oxygen; 
+    font-family: Ubuntu;
+    font-family: Cantarell;
+    font-family: 'Open Sans';
+    font-family:'Helvetica Neue';
+    font-family:  sans-serif ;
+    font-family: Arial;
+    font-family: Helvetica;
+    font-family: sans-serif; */
+    font-weight: bold; 
+    text-transform: capitalize;
+    font-size: clamp(24px,4vw,35px);
+
+}
+.p{
+    @apply text-lg
+    font-normal
+    lg:mx-32
+    md:mx-10
+    sm:mx-10
+    mx-5
+    ;
+}
+.p2{
+    @apply lg:text-lg
+    font-normal text-base
+    
+
+}
+
+
+.soicalATag{
+    font-weight: 400;
+}
+
+@media (max-width: 575px) {
+.soicalATag{
+    font-size: 13px;
+}
+}
+
+@media (max-width: 600px) {
+    .p{
+        font-size: 14px;
+        line-height: 17.5px;
+    }
+}
+

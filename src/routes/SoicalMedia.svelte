@@ -1,31 +1,48 @@
+<script>
+    import PhoneIcon from '../icons/phone-call-icon.svelte'
+    import EmailIcon from '../icons/Email-forward-icon.svelte'
+</script>
 
-
-<ul class="flex  gap-10 pt-6 justify-center logos">
-    <li class="flex  "><a class="flex flex-col items-center " target=”_blank”   href="https://www.facebook.com/stockholmsteelband/">
-        <div class="w-12 h-12">
-            <img width="60" src="\comany logos\Facebook_Logo_(2019).png.webp"/>
-        </div> 
-        <span class='text-center'>Stockholm Steelband</span>
-        </a>    
-    </li>
+<section class="flex flex-col gap-10">
     
-    <li class="flex  "><a class="flex flex-col items-center " target=”_blank”   href="https://www.instagram.com/stockholmsteelband/">
-    <div class="w-12 h-12 flex justify-center items-center" >
-        
-        <img class="logo2" src="\comany logos\Instagram-Logo.png"/>
+    <ul class="flex  gap-10 pt-6 justify-center logos">
+        <li class="flex  "><a class="flex flex-col items-center " target=”_blank”   href="https://www.facebook.com/stockholmsteelband/">
+            <div class="w-12 h-12">
+                <img width="60" alt="link to our Facebook" src="\comany logos\Facebook_Logo_(2019).png.webp"/>
+            </div>
+            <span  class='soicalATag text-center'>Stockholm Steelband</span>
+            </a>
+        </li>
     
-    </div>
-    <span class='text-center'>stockholmsteelband</span>
-    </a>
-    </li>
-    <li class="flex items-center justify-center  "><a class="flex flex-col items-center " target=”_blank”   href="https://www.facebook.com/stockholmsteelband/">
-        <div class="w-12 h-12">
-            <img class="logo3" width="80" src="\comany logos\youtube.png"/>
-        </div> 
-        <span class='text-center'>Stockholm Steelband</span>
-        </a>    
-    </li>
-</ul>
+        <li class="flex  "><a class="flex flex-col items-center " target=”_blank”   href="https://www.instagram.com/stockholmsteelband/">
+        <div class="w-12 h-12 flex justify-center items-center" >
+    
+            <img class="logo2" src="\comany logos\Instagram-Logo.png"/>
+    
+        </div>
+        <span class='text-center soicalATag'>stockholmsteelband</span>
+        </a>
+        </li>
+        <li class="flex items-center justify-center  "><a class="flex flex-col justify-center items-center " target=”_blank”   href="https://www.youtube.com/@stockholmsteelband">
+            <div class="w-12 h-12 flex justify-center items-center">
+                <img class="logo3" width="80" src="\comany logos\youtube.png"/>
+            </div>
+            <span class='soicalATag text-center'>Stockholm Steelband</span>
+            </a> 
+        </li>
+    </ul>
+    <ul class="sm:flex-row flex flex-col  self-center gap-4 sm:gap-20">
+       <div class="flex gap-2">
+           <EmailIcon width={24} height={24}/>
+            <a href=""><li style="padding: 0" class="pb-4">info@stockholmsteelband.se</li></a>
+       </div>
+       <div class="flex gap-2">
+            <PhoneIcon width={24} height={24}/>
+            <a href=""><li cstyle="padding: 0"  lass="pb-4">+46 72-360 47 48</li></a>
+       </div>
+    </ul>
+</section>
+    
 
 <style>
     .logo2{

@@ -3,7 +3,5 @@
     export let width = ''
 </script>
 
-<button class="bg-cYellow p-2 rounded-sm">
-    {text}
-</button>
-
+<a href='#Boka-oss' class=" px-4 text-center bg-cYellow py-2 rounded">Boka oss
+</a>

@@ -9,6 +9,7 @@
   
 </script>
 
+
 <nav class="mx-auto md:px-8 px-0 max-w-7xl">
   <div class="w-full flex justify-between items-center">
     <div class="">
@@ -18,14 +19,14 @@
       </a>
     </div>
     <ul class="hidden row-nav md:flex justify-evenly lg:w-96 md:w-80">
-      <a href="d">
-        <li>About us</li>
+      <a href="#Om-Oss">
+        <li>Om oss</li>
       </a>
-      <a href="d">
-        <li>About us</li>
+      <a href="#Om-Steelband">
+        <li>Om Steelband</li>
       </a>
-      <a href="d">
-        <li>About us</li>
+      <a href="#Boka-oss">
+        <li>Kontakta Oss</li>
       </a>
     </ul>
     <div class="hidden md:flex"><CFA /></div>
@@ -35,13 +36,17 @@
   </div>
   
 </nav>
-
+<a class="md:hidden bottom-0 w-full text-xl font-bold text-center z-20 fixed bg-yellow-600 p-3" href='#Boka-oss'>
+  Boka Oss
+</a>
 <nav class="col-nav">
+   <!--I want this a tag to stick to the buttom of the screen at all time on md devices  -->
+  
   {#if showNav}
   <div class="md:hidden flex flex-col colNav w-full z-20 absolute bg-black ">
-    <a href="d" class="mx:pl-8 ">About us</a>
-    <a href="d" class="mx:pl-8">About us</a>
-    <a href="d" class="mx:pl-8">About us</a>
+    <a href="#Om-Oss" class="mx:pl-8 ">Om oss</a>
+    <a href="#Om-Steelband" class="mx:pl-8">Om Steelband</a>
+    <a href="#Boka-oss" class="mx:pl-8">Kontakta Oss</a>
   </div>
 {/if}
 </nav>
@@ -52,11 +57,13 @@
     align-items: center;
     /* @apply mx-12 ; */
   }
-  .colNav{
+ 
 
+  .colNav :hover{
+    background-color: bisque;
   }
   .colNav a{
       padding-left: 12px;
-      padding: 10px ;
+      padding: 13px ;
   }
 </style>

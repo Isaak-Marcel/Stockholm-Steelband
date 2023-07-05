@@ -10,5 +10,5 @@
 
   </div>
 <div class=" mx-auto  max-w-7xl md:px-16 px-8 ">
-  <Footer/>
+  <!-- <Footer/> -->
 </div>
