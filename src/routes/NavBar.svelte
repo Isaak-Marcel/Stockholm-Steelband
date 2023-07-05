@@ -58,10 +58,6 @@
     /* @apply mx-12 ; */
   }
  
-
-  .colNav :hover{
-    background-color: bisque;
-  }
   .colNav a{
       padding-left: 12px;
       padding: 13px ;

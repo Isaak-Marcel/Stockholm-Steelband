@@ -4,11 +4,11 @@
 </script>
 
 <section id="Boka-oss" class="pb-20 mb-24 mt-14 outline rounded-2xl mx-auto max-w-4xl pb ">
-    <h2 class="text-center pt-8 lg:py-14">Boka Oss</h2>
-    <div class="lg:flex gap-8 flex px-24 ">
+    <h2 class="h2Small text-center pt-8 lg:py-14">Boka Oss</h2>
+    <div class="md:flex-row flex-col justify-center items-center gap-8 flex px-24 ">
         
-        <div class="basis-2/4 flex items-center justify-start lg:pt-0 lg:pb-4 pt-10" >
-            <ul class=" p   pt-4">
+        <div class="md:w-1/2 w-full flex items-center md:justify-start justify-center lg:pt-0 lg:pb-4 pt-10" >
+            <ul class="pt-4">
                 <div class="flex gap-2">
                     <PhoneIcon width={24} height={24}/> 
                     <li class="pb-4"><a>info@stockholmsteelband.se</a></li>
@@ -34,7 +34,7 @@
                 </div>
             </ul>
         </div>
-        <div class=" basis-2/4  lg:pl-10 lg:justify-end lg:block flex  justify-center " >
+        <div class=" w-1/2  hidden lg:pl-10 lg:justify-end lg:block lg:flex  justify-center " >
                     <img  width="400" alt="Steelband" class=" object-contain"  src="\images\Image of people in steelband.png"/>
         </div>
     </div>
