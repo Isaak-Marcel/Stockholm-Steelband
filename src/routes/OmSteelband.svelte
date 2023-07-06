@@ -2,7 +2,7 @@
     <div class="lg:flex-row gap-8 flex flex-col  ">
     
         <div class="basis-2/4 lg:pr-20 justify-start lg:pt-4 " >
-            <div class="flex  items-center gap-4">
+            <div class="flex justify-center lg:justify-start  items-center gap-4">
                 <h2 class=" h2Small pb-2 lg:text-left text-center">Om Steelpan</h2>
                 <img width="40px" src="\images\trinidad flag.png"/>
             </div>

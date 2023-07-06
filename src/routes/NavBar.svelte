@@ -29,7 +29,8 @@
           <li>Kontakta Oss</li>
         </a>
       </ul>
-      <a href="" class="hidden lg:block"><span style="padding: 0" class="pb-4 font-semibold text-black">info@stockholmsteelband.se</span></a>
+      <a href="" class="block navEmail lg:visible"><span style="padding: 0" class="pb-4 text-xs sm:text-base lg:block lg:visible md:hidden font-semibold text-black">info@stockholmsteelband.se</span></a>
+
       <div class="hidden md:flex"><CFA color='black' /></div>
         <button class=" mr-4 svelte-ignore a11y-click-events-have-key-events lg:hidden md:hidden" on:click={toggleNav} >
           <Burger color='black' width={24} height={24} />
@@ -63,5 +64,18 @@
   .colNav a{
       padding-left: 12px;
       padding: 13px ;
+  }
+
+
+  @media (max-width: 475px) {
+    .navEmail{
+      
+      visibility: hidden;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .navEmail{
+    }
   }
 </style>
