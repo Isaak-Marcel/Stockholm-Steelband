@@ -10,12 +10,12 @@
         <div class="md:w-1/2 w-full flex items-center md:justify-start justify-center lg:pt-0 lg:pb-4 pt-10" >
             <ul class="pt-4">
                 <div class="flex gap-2">
-                    <PhoneIcon width={24} height={24}/> 
-                    <li class="pb-4"><a>info@stockholmsteelband.se</a></li>
+                    <EmailIcon width={24} height={24}/> 
+                    <li class="pb-4"><a href ="mailto:info@stockholmsteelband.se">info@stockholmsteelband.se</a></li>
                 </div>
                 <div class="flex gap-2">
-                    <EmailIcon width={24} height={24}/> 
-                    <li class="pb-4"><a>+46 72-360 47 48</a></li>
+                    <PhoneIcon width={24} height={24}/> 
+                    <li class="pb-4"><a href="tel: +46723604748">+46 72-360 47 48</a></li>
                 </div>
                 <div class="flex">
                     <li>

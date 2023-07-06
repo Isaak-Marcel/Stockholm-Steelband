@@ -2,6 +2,8 @@
     import { fade } from 'svelte/transition';
     import RigthArrowIcon from '../icons/Rigth-arrow-icon.svelte';
     import LeftArrowIcon from '../icons/Left-arrow-Icon.svelte';
+    import { onMount } from 'svelte';
+    
   
     const carouselPhotos = [
       `images\\Playaing steelband.png`,
@@ -10,6 +12,14 @@
     ];
   
     let index = 0;
+
+    const switchImages = () => {
+      setInterval(next, 3000);
+    };
+
+    onMount(switchImages);
+
+  
   
     const next = () => {
       index = (index + 1) % carouselPhotos.length;
@@ -44,7 +54,7 @@
   
       <div class="basis-2/4 lg:pl-10 lg:pt-4 pt-10 lg:block flex-col items-center flex">
         <h2 class="pb-2 h2Small lg:text-left text-center">Om stockholm Steelband</h2>
-        <p class="p2 lg:text-left lg:p-0  text-center lg:mb-6 mb-5">  Musiken består av karibiska rytmer så som calypso och soca, med en blandad repertoar av traditionella låtskatter från Trinidad and Tobago och arrangemang av kända hits.Vi spelar på festivaler och företagsevent, firmafester – små som stora, privata fester, bröllop, dop, födelsedagsfirande, lokala gatufester, folkparker och karnevaler till större event i Stadshuset, Pride och Polarprisutdelning. Vi spelar både lugnare mingelmusik och smittande, oemotståndlig dansmusik. I samarbete med uppdragsgivaren skräddarsyr vi våra spelningar för att anpassa oss till era önskemål och upplägg.</p>
+        <p class="p2 lg:text-left lg:p-0  text-center lg:mb-6 mb-5">  Musiken består av karibiska rytmer så som calypso och soca, med en blandad repertoar av traditionella låtskatter från Trinidad and Tobago och arrangemang av kända hits.Vi spelar på festivaler och företagsevent, firmafester – små som stora, privata fester, bröllop, dop, födelsedagsfirande, lokala gatufester, folkparker och karnevaler till större event i Stadshuset, Pride och Polarprisutdelning.I samarbete med uppdragsgivaren skräddarsyr vi våra spelningar för att anpassa oss till era önskemål och upplägg.</p>
         <a href='#Boka-oss' class="px-6 text-center bg-cYellow py-2 rounded">Boka oss</a>
       </div>
     </div>

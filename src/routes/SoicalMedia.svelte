@@ -6,7 +6,7 @@
 <section class="flex flex-col gap-10">
     
     <ul class="flex  gap-10 pt-6 justify-center logos">
-        <li class="flex  "><a class="flex flex-col items-center " target=”_blank”   href="https://www.facebook.com/stockholmsteelband/">
+            <li class="flex  "><a class="flex flex-col items-center " target=”_blank”   href="https://www.facebook.com/stockholmsteelband/">
             <div class="w-12 h-12">
                 <img width="60" alt="link to our Facebook" src="\comany logos\Facebook_Logo_(2019).png.webp"/>
             </div>
@@ -34,11 +34,11 @@
     <ul class="sm:flex-row flex flex-col  self-center gap-4 sm:gap-20">
        <div class="flex gap-2">
            <EmailIcon width={24} height={24}/>
-            <a href=""><li style="padding: 0" class="pb-4">info@stockholmsteelband.se</li></a>
+            <a href ="mailto:info@stockholmsteelband.se"><li style="padding: 0"  class="pb-4">info@stockholmsteelband.se</li></a>
        </div>
        <div class="flex gap-2">
             <PhoneIcon width={24} height={24}/>
-            <a href="+46 72-360 47 48"><li cstyle="padding: 0"  lass="pb-4">+46 72-360 47 48</li></a>
+            <a href="tel: +46723604748"><li cstyle="padding: 0"  lass="pb-4">+46 72-360 47 48</li></a>
        </div>
     </ul>
 </section>
