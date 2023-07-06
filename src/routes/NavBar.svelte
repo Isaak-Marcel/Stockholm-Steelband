@@ -10,35 +10,37 @@
 </script>
 
 
-<nav class="mx-auto md:px-8 px-0 max-w-7xl">
-  <div class="w-full flex justify-between items-center">
-    <div class="">
-       
-      <a href="/" class="" >
-        <img src='/images/Logo.png' alt="home"/>
-      </a>
+<nav class=" bg-white">
+  <div class="mx-auto md:px-8 px-0 max-w-7xl bg-white">
+    <div class="w-full flex justify-between items-center">
+      <div class="flex justify-center items-center">
+        <a href="/" class="" >
+          <img src='/images/Logo.png' alt="home"/>
+        </a>
+      </div>
+      <ul class="hidden row-nav md:flex justify-evenly lg:w-96 md:w-80">
+        <a href="#Om-Oss">
+          <li>Om oss</li>
+        </a>
+        <a href="#Om-Steelband">
+          <li>Om Steelband</li>
+        </a>
+        <a href="#Boka-oss">
+          <li>Kontakta Oss</li>
+        </a>
+      </ul>
+      <a href="" class="hidden sm:block"><span style="padding: 0" class="pb-4 font-semibold text-black">info@stockholmsteelband.se</span></a>
+      <div class="hidden md:flex"><CFA color='black' /></div>
+        <button class=" mr-4 svelte-ignore a11y-click-events-have-key-events lg:hidden md:hidden" on:click={toggleNav} >
+          <Burger color='black' width={24} height={24} />
+        </button>
     </div>
-    <ul class="hidden row-nav md:flex justify-evenly lg:w-96 md:w-80">
-      <a href="#Om-Oss">
-        <li>Om oss</li>
-      </a>
-      <a href="#Om-Steelband">
-        <li>Om Steelband</li>
-      </a>
-      <a href="#Boka-oss">
-        <li>Kontakta Oss</li>
-      </a>
-    </ul>
-    <div class="hidden md:flex"><CFA /></div>
-      <button class=" mr-4 svelte-ignore a11y-click-events-have-key-events lg:hidden md:hidden" on:click={toggleNav} >
-        <Burger width={24} height={24} />
-      </button>
   </div>
   
 </nav>
 <a class="md:hidden bottom-0 w-full text-xl font-bold text-center z-20 fixed bg-yellow-600 p-3" href='#Boka-oss'>
   Boka Oss
-</a>
+  </a>
 <nav class="col-nav">
    <!--I want this a tag to stick to the buttom of the screen at all time on md devices  -->
   
