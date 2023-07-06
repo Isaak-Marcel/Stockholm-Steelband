@@ -33,7 +33,7 @@
   <section class="pt-14 pb-8" id="Om-Oss">
     <div class="lg:flex lg:justify-center lg:items-center gap-8">
       <div class="basis-2/4 lg:pl-10 lg:justify-end lg:block flex justify-center">
-        <h2 class="lg:block hidden opacity-0 pb-2">Om stockholms teelband</h2>
+        <h2 class="lg:block hidden opacity-0 pb-2">Om Musiken</h2>
         <div class="relative lg:w-auto w-[470px] lg:h-[278px] h-[238px]">
           {#each [carouselPhotos[index]] as src (index)}
           <img transition:fade {src} class="h-full w-full absolute object-cover" alt="" />
@@ -53,7 +53,7 @@
       </div>
   
       <div class="basis-2/4 lg:pl-10 lg:pt-4 pt-10 lg:block flex-col items-center flex">
-        <h2 class="pb-2 h2Small lg:text-left text-center">Om stockholm Steelband</h2>
+        <h2 style="text-transform: none;" class="pb-2 h2Small lg:text-left text-center ">Om musiken</h2>
         <p class="p2 lg:text-left lg:p-0  text-center lg:mb-6 mb-5">  Musiken består av karibiska rytmer så som calypso och soca, med en blandad repertoar av traditionella låtskatter från Trinidad and Tobago och arrangemang av kända hits.Vi spelar på festivaler och företagsevent, firmafester – små som stora, privata fester, bröllop, dop, födelsedagsfirande, lokala gatufester, folkparker och karnevaler till större event i Stadshuset, Pride och Polarprisutdelning.I samarbete med uppdragsgivaren skräddarsyr vi våra spelningar för att anpassa oss till era önskemål och upplägg.</p>
         <a href='#Boka-oss' class="px-6 text-center bg-cYellow py-2 rounded">Boka oss</a>
       </div>

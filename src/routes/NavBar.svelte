@@ -2,6 +2,7 @@
   import Burger from '../icons/align-justify.svelte'
   import CFA from './CFA.svelte'
   let showNav = false;
+  import EmailIcon from '../icons/Email-forward-icon.svelte'
 
   const toggleNav = () => {
     showNav = !showNav;
@@ -20,21 +21,22 @@
       </div>
       <ul class="hidden text-black font-semibold row-nav md:flex justify-evenly lg:w-96 md:w-80">
         <a href="#Om-Oss">
-          <li>Om oss</li>
+          <li>Om Musiken</li>
         </a>
         <a href="#Om-Steelband">
-          <li>Om Steelband</li>
+          <li>Om Instrumenten</li>
         </a>
         <a href="#Boka-oss">
           <li>Kontakta Oss</li>
         </a>
       </ul>
-      <a href="" class="block navEmail lg:visible"><span style="padding: 0" class="pb-4 text-xs sm:text-base lg:block lg:visible md:hidden font-semibold text-black">info@stockholmsteelband.se</span></a>
-
       <div class="hidden md:flex"><CFA color='black' /></div>
-        <button class=" mr-4 svelte-ignore a11y-click-events-have-key-events lg:hidden md:hidden" on:click={toggleNav} >
-          <Burger color='black' width={24} height={24} />
-        </button>
+        <div class="flex">
+        <a class="pr-6" href="mailto:info@stockholmsteelband.se"> <EmailIcon color='black' width={24} height={24}/> </a>
+          <button class=" mr-4 svelte-ignore a11y-click-events-have-key-events lg:hidden md:hidden" on:click={toggleNav} >
+            <Burger color='black' width={24} height={24} />
+          </button>
+        </div>
     </div>
   </div>
   
@@ -67,7 +69,7 @@
   }
 
 
-  @media (max-width: 475px) {
+  @media (max-width: 640px) {
     .navEmail{
       
       visibility: hidden;

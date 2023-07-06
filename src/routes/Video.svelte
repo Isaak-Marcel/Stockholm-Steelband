@@ -31,7 +31,7 @@
         <!-- <h2 class="h2 mx-auto pb-4">Stockholm Steelband</h2> -->
         
         <p  class="steelP p">Stockholm Steelband är ett oljefatsband som har sin givna plats när det kommer till att sprida dansglädje och feststämning. Karibiska rytmer för både lugnare mingelmusik och smittande, oemotståndlig dansmusik. Vi skräddarsyr våra spelningar för både stora och små event. </p> </div>
-        <p class="pt-4 font-semibold">
+        <p class="pt-4 text-center font-semibold">
             Välkommen med din förfrågan!
         </p>
 </div>
