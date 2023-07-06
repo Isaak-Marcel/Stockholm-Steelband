@@ -9,7 +9,7 @@
 </script>
 
 <section class="sectionReal">
-    <video bind:muted={isMuted} autoplay playsinline disablepictureinpicture loop class="w-full object-cover absolute -z-10 min">
+    <video  bind:muted={isMuted} autoplay playsinline disablepictureinpicture loop class="w-full object-cover absolute -z-10 min">
         <source src="/videos/IMG_6793.mov" />
     </video>
 
@@ -45,7 +45,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 40%;
     background: linear-gradient(transparent, black);
     z-index: 1;
 }
@@ -69,10 +69,10 @@
 
     @media (max-width: 576px) {
         video{
-            height: 450px;
+            height: 550px;
         }
         .sectionReal{
-            height: 250px;
+            height: 520px;
         }
     }
 </style>

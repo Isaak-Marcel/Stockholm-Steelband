@@ -38,7 +38,7 @@
        </div>
        <div class="flex gap-2">
             <PhoneIcon width={24} height={24}/>
-            <a href=""><li cstyle="padding: 0"  lass="pb-4">+46 72-360 47 48</li></a>
+            <a href="+46 72-360 47 48"><li cstyle="padding: 0"  lass="pb-4">+46 72-360 47 48</li></a>
        </div>
     </ul>
 </section>
