@@ -28,7 +28,7 @@
 
 <div class=" MainWrapper flex flex-col justify-center items-center relative z-2">
     <div class=" text-center z-10 ">
-        <h2 class="h2 mx-auto pb-4">Stockholm Steelband</h2>
+        <!-- <h2 class="h2 mx-auto pb-4">Stockholm Steelband</h2> -->
         <p  class="steelP p">Stockholm Steelband är ett oljefatsband som har sin givna plats när det kommer till att sprida dansglädje och feststämning. Vi spelar både lugnare mingelmusik och smittande, oemotståndlig dansmusik. Vi skräddarsyr våra spelningar för festivaler, företagsevent, firmafester, privata fester, bröllop och dop. </p> </div>
 </div>
 

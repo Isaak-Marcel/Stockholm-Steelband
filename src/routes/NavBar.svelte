@@ -18,7 +18,7 @@
           <img src='/images/Logo.png' alt="home"/>
         </a>
       </div>
-      <ul class="hidden row-nav md:flex justify-evenly lg:w-96 md:w-80">
+      <ul class="hidden text-black font-semibold row-nav md:flex justify-evenly lg:w-96 md:w-80">
         <a href="#Om-Oss">
           <li>Om oss</li>
         </a>
@@ -29,7 +29,7 @@
           <li>Kontakta Oss</li>
         </a>
       </ul>
-      <a href="" class="hidden sm:block"><span style="padding: 0" class="pb-4 font-semibold text-black">info@stockholmsteelband.se</span></a>
+      <a href="" class="hidden lg:block"><span style="padding: 0" class="pb-4 font-semibold text-black">info@stockholmsteelband.se</span></a>
       <div class="hidden md:flex"><CFA color='black' /></div>
         <button class=" mr-4 svelte-ignore a11y-click-events-have-key-events lg:hidden md:hidden" on:click={toggleNav} >
           <Burger color='black' width={24} height={24} />
