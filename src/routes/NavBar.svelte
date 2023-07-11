@@ -19,7 +19,7 @@
           <img src='/images/Logo.png' alt="home"/>
         </a>
       </div>
-      <ul class="hidden text-black font-semibold row-nav md:flex justify-evenly lg:w-96 md:w-80">
+      <ul class="hidden gap-8 text-black font-semibold row-nav lg:flex justify-evenly lg:w-96 md:w-80">
         <a href="#Om-Oss">
           <li>Om Musiken</li>
         </a>
@@ -30,10 +30,10 @@
           <li>Kontakta Oss</li>
         </a>
       </ul>
-      <div class="hidden md:flex"><CFA color='black' /></div>
+      <div class="hidden lg:flex"><CFA color='black' /></div>
         <div class="flex">
         <a class="pr-6" href="mailto:info@stockholmsteelband.se"> <EmailIcon color='black' width={24} height={24}/> </a>
-          <button class=" mr-4 svelte-ignore a11y-click-events-have-key-events lg:hidden md:hidden" on:click={toggleNav} >
+          <button class=" mr-4 svelte-ignore a11y-click-events-have-key-events lg:hidden " on:click={toggleNav} >
             <Burger color='black' width={24} height={24} />
           </button>
         </div>
@@ -48,9 +48,9 @@
    <!--I want this a tag to stick to the buttom of the screen at all time on md devices  -->
   
   {#if showNav}
-  <div class="md:hidden flex flex-col colNav w-full z-20 absolute bg-black ">
-    <a href="#Om-Oss" class="mx:pl-8 ">Om oss</a>
-    <a href="#Om-Steelband" class="mx:pl-8">Om Steelband</a>
+  <div class="lg:hidden flex flex-col colNav w-full z-20 absolute bg-black ">
+    <a href="#Om-Oss" class="mx:pl-8 ">Om Musiken</a>
+      <a href="#Om-Steelband" class="mx:pl-8">Om Instrumenten</a>
     <a href="#Boka-oss" class="mx:pl-8">Kontakta Oss</a>
   </div>
 {/if}

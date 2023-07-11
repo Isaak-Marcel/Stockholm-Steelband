@@ -7,17 +7,17 @@
     <h2 class="h2Small text-center pt-8 lg:py-14">Boka Oss</h2>
     <div class="md:flex-row flex-col justify-center items-center gap-8 flex px-24 ">
         
-        <div class="md:w-1/2 w-full flex items-center md:justify-start justify-center lg:pt-0 lg:pb-4 pt-10" >
+        <div class="md:w-1/2  w-full flex items-center lg:justify-start justify-center lg:pt-0 lg:pb-4 pt-10" >
             <ul class="pt-4">
-                <div class="flex gap-2">
+                <div class="flex gap-2  ">
                     <EmailIcon width={24} height={24}/> 
-                    <li class="pb-4"><a href ="mailto:info@stockholmsteelband.se">info@stockholmsteelband.se</a></li>
+                    <li class="pb-4 test55 sm:text-xl text-lg [@media(max-width:371px)]:text-base [@media(max-width:341px)]:text-sm [@media(max-width:330px)]:text-xs"><a href ="mailto:info@stockholmsteelband.se">info@stockholmsteelband.se</a></li>
                 </div>
                 <div class="flex gap-2">
                     <PhoneIcon width={24} height={24}/> 
-                    <li class="pb-4"><a href="tel: +46723604748">+46 72-360 47 48</a></li>
+                    <li class="test55 pb-4 sm:text-xl text-lg  [@media(max-width:371px)]:text-base  [@media(max-width:314px)]:text-sm   [@media(max-width:300px)]:text-xs  "><a href="tel: +46723604748">+46 72-360 47 48</a></li>
                 </div>
-                <div class="flex">
+                <div class="flex md:justify-start justify-center">
                     <li>
                          <a class="items-center " target=”_blank”   href="https://www.facebook.com/stockholmsteelband/">
                                     <img width="50" src="\comany logos\Facebook_Logo_(2019).png.webp"/>
@@ -40,3 +40,19 @@
     </div>
 </section>
 
+<style>
+    
+    @media (max-width: 316px) {
+        .test55{
+            font-size: 15px;
+        }
+
+    }
+    @media (max-width: 294px) {
+        .test55{
+            font-size: 14px;
+        }
+
+    }
+      
+</style>
