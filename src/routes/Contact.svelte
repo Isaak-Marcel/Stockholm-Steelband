@@ -35,7 +35,7 @@
             </ul>
         </div>
         <div class=" w-1/2  hidden lg:pl-10 lg:justify-end lg:block lg:flex  justify-center " >
-                    <img  width="400" alt="Steelband" class=" object-contain"  src="\images\Image of people in steelband.png"/>
+                    <img  width="400" alt="Steelband" class=" object-contain"  src="\sliderImages\gruppbild regnbåge.jpg"/>
         </div>
     </div>
 </section>

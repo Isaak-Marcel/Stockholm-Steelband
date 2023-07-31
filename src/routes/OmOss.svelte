@@ -82,9 +82,9 @@
         uppdragsgivaren skräddarsyr vi våra spelningar för att anpassa oss till
         era önskemål och upplägg.
       </p>
-      <a href="#Boka-oss" class="px-6 text-center bg-cYellow py-2 rounded"
+      <!-- <a href="#Boka-oss" class="px-6 text-center bg-cYellow py-2 rounded"
         >Boka oss</a
-      >
+      > -->
     </div>
   </div>
 </section>

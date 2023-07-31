@@ -1,5 +1,5 @@
 <section class="pb-14" id="Om-Steelband">
-    <div class="lg:flex-row gap-8 flex flex-col  ">
+    <div class="lg:flex-row gap-8 flex flex-col  flex-col-reverse  ">
     
         <div class="basis-2/4 lg:pr-20 justify-start lg:pt-4 " >
             <div class="flex justify-center lg:justify-start  items-center gap-4">
