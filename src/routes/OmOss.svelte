@@ -75,10 +75,10 @@
       <p class="p2 lg:text-left lg:p-0 text-center lg:mb-6 mb-5">
         Musiken består av karibiska rytmer så som calypso och soca, med en
         blandad repertoar av traditionella låtskatter från Trinidad and Tobago
-        och arrangemang av kända hits.Vi spelar på festivaler och företagsevent,
+        och arrangemang av kända hits. Vi spelar på festivaler och företagsevent,
         firmafester – små som stora, privata fester, bröllop, dop,
         födelsedagsfirande, lokala gatufester, folkparker och karnevaler till
-        större event i Stadshuset, Pride och Polarprisutdelning.I samarbete med
+        större event i Stadshuset, Pride och Polarprisutdelning. I samarbete med
         uppdragsgivaren skräddarsyr vi våra spelningar för att anpassa oss till
         era önskemål och upplägg.
       </p>

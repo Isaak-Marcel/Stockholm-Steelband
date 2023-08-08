@@ -15,7 +15,7 @@
   <OmOss/>
   <OmSteelband/>
   <YoutubeVideoEmbed/>
-   <OmStockholmSteelband/>
+  <OmStockholmSteelband/>
   <Contact/>
 </div>
 
