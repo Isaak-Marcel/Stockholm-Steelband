@@ -13,10 +13,10 @@
                     <EmailIcon width={24} height={24}/> 
                     <li class="pb-4 test55 sm:text-xl text-lg [@media(max-width:371px)]:text-base [@media(max-width:341px)]:text-sm [@media(max-width:330px)]:text-xs"><a href ="mailto:info@stockholmsteelband.se">info@stockholmsteelband.se</a></li>
                 </div>
-                <div class="flex gap-2">
+                <!-- <div class="flex gap-2">
                     <PhoneIcon width={24} height={24}/> 
                     <li class="test55 pb-4 sm:text-xl text-lg  [@media(max-width:371px)]:text-base  [@media(max-width:314px)]:text-sm   [@media(max-width:300px)]:text-xs  "><a href="tel: +46723604748">+46 72-360 47 48</a></li>
-                </div>
+                </div> -->
                 <div class="flex md:justify-start justify-center">
                     <li>
                          <a class="items-center " target=”_blank”   href="https://www.facebook.com/stockholmsteelband/">

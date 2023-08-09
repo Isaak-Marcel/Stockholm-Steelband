@@ -36,10 +36,10 @@
            <EmailIcon width={24} height={24}/>
             <a href ="mailto:info@stockholmsteelband.se"><li style="padding: 0"  class="pb-4">info@stockholmsteelband.se</li></a>
        </div>
-       <div class="flex gap-2">
+       <!-- <div class="flex gap-2">
             <PhoneIcon width={24} height={24}/>
             <a href="tel: +46723604748"><li cstyle="padding: 0"  lass="pb-4">+46 72-360 47 48</li></a>
-       </div>
+       </div> -->
     </ul>
 </section>
     
