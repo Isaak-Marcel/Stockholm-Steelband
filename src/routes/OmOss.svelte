@@ -35,7 +35,7 @@
 <section class="pt-14 pb-8" id="Om-Oss">
   <div class="lg:flex lg:justify-center lg:items-center gap-8">
     <div class="basis-2/4 lg:pl-10 lg:justify-end lg:block flex justify-center">
-      <h2 class="lg:block hidden opacity-0 pb-2">Om Musiken</h2>
+      <h1 class="lg:block hidden opacity-0 pb-2">Om Musiken</h1>
       <div class="relative lg:w-auto w-[470px] lg:h-[278px] h-[238px]">
         {#each [carouselPhotos[index]] as src (index)}
           <img
@@ -43,6 +43,8 @@
             {src}
             class="h-full w-full absolute object-scale-down"
             alt=""
+            width="500px"
+            height="500px"
           />
         {/each}
         <button class="next-button" on:click={next}
@@ -75,12 +77,12 @@
       <p class="p2 lg:text-left lg:p-0 text-center lg:mb-6 mb-5">
         Musiken består av karibiska rytmer så som calypso och soca, med en
         blandad repertoar av traditionella låtskatter från Trinidad and Tobago
-        och arrangemang av kända hits. Vi spelar på festivaler och företagsevent,
-        firmafester – små som stora, privata fester, bröllop, dop,
-        födelsedagsfirande, lokala gatufester, folkparker och karnevaler till
-        större event i Stadshuset, Pride och Polarprisutdelning. I samarbete med
-        uppdragsgivaren skräddarsyr vi våra spelningar för att anpassa oss till
-        era önskemål och upplägg.
+        och arrangemang av kända hits. Vi spelar på festivaler och
+        företagsevent, firmafester – små som stora, privata fester, bröllop,
+        dop, födelsedagsfirande, lokala gatufester, folkparker och karnevaler
+        till större event i Stadshuset, Pride och Polarprisutdelning. I
+        samarbete med uppdragsgivaren skräddarsyr vi våra spelningar för att
+        anpassa oss till era önskemål och upplägg.
       </p>
       <!-- <a href="#Boka-oss" class="px-6 text-center bg-cYellow py-2 rounded"
         >Boka oss</a
